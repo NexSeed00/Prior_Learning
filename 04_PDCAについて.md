@@ -23,3 +23,6 @@
 
 ## 資料に関する重要事項
 **※使用するカリキュラムや配布資料・コードについて、学習目的以外での使用や転載等は固く禁じています。**
+
+## 次のページへ
+[HTMLの基礎](https://github.com/NexSeed00/Prior_Learning/blob/master/05_HTML%E3%81%AE%E5%9F%BA%E7%A4%8E.md)
