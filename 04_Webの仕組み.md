@@ -43,7 +43,7 @@ Webの構成は、大きく分けて「**クライアント**」と「**サー�
 
 ここで簡単にWebアプリケーションについて説明します。
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVmW31pDKi0Uffu7Tyzf-DFVWPXCAE7d4eEErkBtpE23fIT-3o2GSX2nnhLRBw35Fjamhwyh-ej09I/embed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="420" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+[こちら](https://docs.google.com/presentation/d/e/2PACX-1vSVmW31pDKi0Uffu7Tyzf-DFVWPXCAE7d4eEErkBtpE23fIT-3o2GSX2nnhLRBw35Fjamhwyh-ej09I/embed?start=false&loop=false&delayms=3000)をクリックしてください。 
 
 <hr>
 
