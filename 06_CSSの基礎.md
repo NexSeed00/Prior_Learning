@@ -395,3 +395,6 @@ style.cssに、次の宣言ブロックを追加しましょう。
     * VS codeは、シンタックスハイライトという機能でコードの意味ごとに色分けをしてくれます。
 * 補完機能を利用しよう
     * はじめはできるだけ補完機能に助けてもらいながら書くとミスが減ります。
+
+## 次のページへ
+[Google developerツールの使い方](https://github.com/NexSeed00/Prior_Learning/blob/master/07_Google%20Developer%E3%83%84%E3%83%BC%E3%83%AB%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9.md)
