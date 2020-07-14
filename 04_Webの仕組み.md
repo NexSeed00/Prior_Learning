@@ -79,6 +79,7 @@ HTTP通信 ~ 後編 ~
 
 [こちら](https://docs.google.com/presentation/d/e/2PACX-1vR0Ak3bWYcXeZUCESdhswia9BJgKdrkXtck4vliIfg7uOENAGIf2U8jCZFhG3yMZhtrBw4Wy1jdt_MR/embed?start=false&loop=false&delayms=3000)をクリックしてください。
 
+※スライド9のターミナル操作は行わなくて構いません。
 
 
 ## LAMPとは
