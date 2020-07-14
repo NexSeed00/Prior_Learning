@@ -3,7 +3,8 @@ CSSは、Cascading Style Sheets（カスケーディング・スタイル・シ�
 HTMLのコンテンツをCSSを使って装飾する際、よく「CSSをあてる」という表現が使われます。
 
 ここではCSSの基本知識を学んでいきます。  
-HTML概論で作成した、デスクトップ上の「basic」フォルダの中に、次のsample2.htmlを作成しておきましょう。
+HTML概論で作成した、デスクトップ上の「basic」フォルダをvs code上で開きましょう。<br>
+その中に、次のsample2.htmlを作成しておきましょう。
 
 ```html
 <!DOCTYPE html>
