@@ -71,13 +71,13 @@ HTTP通信とは、 **ブラウザ(Google ChromeやSafariなど)とWebサーバ�
 
 HTTP通信 ~ 前編 ~
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRisz5wTSqL97dDOJL3GfWOGKpf5qQIuhYMhGfpFbDmEfg7axgN323boL62zrGZB_M_NOfY1qnL1o23/embed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="420" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+[こちら](https://docs.google.com/presentation/d/e/2PACX-1vRisz5wTSqL97dDOJL3GfWOGKpf5qQIuhYMhGfpFbDmEfg7axgN323boL62zrGZB_M_NOfY1qnL1o23/embed?start=false&loop=false&delayms=3000)をクリックしてください。
 
 <hr>
 
 HTTP通信 ~ 後編 ~
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR0Ak3bWYcXeZUCESdhswia9BJgKdrkXtck4vliIfg7uOENAGIf2U8jCZFhG3yMZhtrBw4Wy1jdt_MR/embed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="420" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+[こちら](https://docs.google.com/presentation/d/e/2PACX-1vR0Ak3bWYcXeZUCESdhswia9BJgKdrkXtck4vliIfg7uOENAGIf2U8jCZFhG3yMZhtrBw4Wy1jdt_MR/embed?start=false&loop=false&delayms=3000)をクリックしてください。
 
 
 
