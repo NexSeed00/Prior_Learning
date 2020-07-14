@@ -1,0 +1,156 @@
+まずは、プログラミング学習の導入部分として **Web** の基礎知識について学習していきます。  
+プログラミングを勉強しようとして最初にぶつかる壁は、各種専門用語の多さだと思います。  
+また、Webの構成を理解せずにコードを書き始めてしまうと、エラーが発生した時に、プログラムを動かしている環境が悪いのかプログラムコードが悪いのか、判断ができなくてつまづいてしまいます。
+
+後々のプログラミング学習をスムーズにするために、まずはWebの基礎知識と専門用語をしっかり身につけておきましょう。
+
+
+## Webとは
+Webを知るために、まずは **インターネット** について見ていきましょう。  
+インターネットとは、全世界共通の通信仕様を用いて、全世界の膨大な数のコンピュータや通信機器を相互に繋いだ、巨大なコンピュータネットワークのことです。  
+
+またWebとは、元々はURLの最初についている **www** のひとつを取ったものです。
+wwwとは「World Wide Web」の略で、インターネットを通じて世界中のサーバーに公開されている情報を閲覧することができる仕組みのことです。  
+
+<img src="http://hackers.nexseed.net/images/curriculum_images/about_web_1.png" alt="Overview" style="width: 80%;">
+
+
+## インターネットとWebの違い
+では、インターネットとWebはそれぞれどんな役割にわかれるのでしょうか？  
+下の図を見てみましょう。
+
+<img src="http://hackers.nexseed.net/images/curriculum_images/about_web_2.png" alt="Overview" style="width: 80%;">
+
+インターネットとは、PC同士を繋いで **情報を通すための道路** のような役割になります。  
+Webとは、その道路を使ってPCから別のPCへ **情報を運ぶための車** のような役割になります。
+
+この仕組みを使って、データという荷物を車に積んで相互に送り合うことで、私たちは情報交換ができるようになっています。
+
+
+## Webの仕組み
+それではWebの仕組みを簡単に見ていきましょう。  
+Webの構成は、大きく分けて「**クライアント**」と「**サーバー**」という2つにわかれます。
+
+クライアントとは、ユーザーが使用するPCやスマートフォン等の端末側のことを指します。  
+クライアントは、端末内にインストールされている **ブラウザ** と呼ばれるツールを使ってインターネットを使います。
+
+サーバーとは、インターネットで繋がったもう一方のPC端末のことを指します。（仮想空間上に別のPCがスタンバイしているイメージ）  
+サーバーは「提供する：serve」から来ており、クライアントから要求された情報を提供する役割を持ちます。
+サーバーはインターネット上で情報を提供する際には必須のもので、どのWebサービスにも必ず1つ以上、専用のサーバーが存在します。
+
+<img src="http://hackers.nexseed.net/images/curriculum_images/about_web_3.png" alt="Overview" style="width: 80%;">
+
+ここで簡単にWebアプリケーションについて説明します。
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVmW31pDKi0Uffu7Tyzf-DFVWPXCAE7d4eEErkBtpE23fIT-3o2GSX2nnhLRBw35Fjamhwyh-ej09I/embed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="420" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+<hr>
+
+
+## クライアントとサーバー
+クライアントとサーバーの関係について、もう少し詳しく見ていきましょう。
+
+クライアントがWebサイトを見る時、まずブラウザを開いてURLを入力します。  
+URLを入力して送信すると、いきなりWebサイトのサーバーへアクセスするのではなく、まず **DNS（Domain Name System）** へアクセスします。（①）  
+DNSは、URLのアドレスを元にアクセスしたいサーバの **IPアドレス（住所）** を教えてくれるシステムです。
+インターネットにつながっているサーバーは必ず一意のIPアドレスを持っているため、IPアドレスが分かればサーバーを特定することができます。
+
+ブラウザはDNSからサーバーのIPアドレスを受け取り（②）、そのIPアドレスを持つサーバーへ **リクエスト** を送ります。（③）  
+リクエストを受け取ったサーバーは、何らかの処理をしてその結果（**レスポンス**）をクライアントへ返します。（④）  
+サーバーからレスポンスを受け取ったら、ブラウザはその結果を表示します。
+
+<img src="http://hackers.nexseed.net/images/curriculum_images/about_web_8.png" alt="Overview" style="width: 80%;">
+
+<hr>
+
+## HTTP通信
+HTTP通信とは、 **ブラウザ(Google ChromeやSafariなど)とWebサーバー間で行なう通信のこと** を指します。<br>
+ブラウザからWebサーバーに向けてTCPというプロトコルを使って接続を行い、<br>接続が成功したらブラウザは「こんな情報ください」という **リクエスト** を発行します。
+スライドで見ていきましょう。
+
+HTTP通信 ~ 前編 ~
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRisz5wTSqL97dDOJL3GfWOGKpf5qQIuhYMhGfpFbDmEfg7axgN323boL62zrGZB_M_NOfY1qnL1o23/embed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="420" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+<hr>
+
+HTTP通信 ~ 後編 ~
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR0Ak3bWYcXeZUCESdhswia9BJgKdrkXtck4vliIfg7uOENAGIf2U8jCZFhG3yMZhtrBw4Wy1jdt_MR/embed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="420" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+
+## LAMPとは
+上の図で、サーバーの方に「LAMP（ランプ）環境」と書いてあります。これは、サーバーが動作している環境を示すもので、それぞれの頭文字を取っています。
+
+* **L**：Linux（リナックス）
+    * LinuxはOS（Operating System）の一種で、サーバーのOSとして多く利用されています。
+        * OS：パソコンやスマートフォンを動かすための基本となるソフトウェアのこと
+* **A** ：Apache（アパッチ）
+    * Webサービスを提供できるソフトウェアの1つで、クライアントからのリクエストを受け取ったり、レスポンスをクライアントに返したりする機能を持っています。
+* **M** ：MySQL（マイエスキューエル）
+    * データを保存するデータベースの1つです。
+* **P** ：PHP（ピーエイチピー）
+    * サーバーで動作するプログラミング言語です。
+
+エンジニア留学では、このLAMP環境を使ってプログラミングの勉強をしていきます。
+
+<img src="http://hackers.nexseed.net/images/curriculum_images/about_web_9.png" alt="Overview" style="width: 80%;">
+
+
+## プログラミングとは？
+サーバー上で様々な処理を行うプログラムを作成することを **プログラミング** と呼びます。  
+サーバーはコンピュータなので、何か処理を実行したい時に日本語で命令しても動作しません。
+コンピュータが理解できる言語で処理を命令する必要があります。
+
+皆さんがこれから学ぶプログラミング言語とは、サーバー（コンピュータ）とコミュニケーションを取るためのツールです。  
+よく「プログラミングは理系向き」「特別なスキル」と誤解されがちですが、プログラミング言語は英語と同じくコミュニケーションツールであり、理系文系関係なく、誰しもにそのツールを使う権利と可能性があります。  
+もちろん、すごく複雑な計算処理を必要とするシステムなどには理系の知識も必要ですが、簡単なWebサービスを開発して世の中に公開することであれば、勉強すれば誰でもできるようになります。
+
+<img src="http://hackers.nexseed.net/images/curriculum_images/about_web_4.png" alt="Overview" style="width: 80%;">
+
+
+## エンジニアの可能性
+プログラミングを学習しエンジニアになることでどんなことができるようになるのか、Facebookを例に考えてみましょう。  
+Facebookも、クライアントサイドにはHTML/CSSを、サーバーサイドにはPHPというプログラミング言語を使用しています。  
+2014年からPHPをより高度に独自言語化し、「Hack」という名称で新たな言語としてリリースし使用しています。（※1）  
+
+また、Facebookのデイリーユーザー数はなんと約14億5000万人！（2018/03月時点） （※2）
+それに対し、Facebookで働くエンジニアの人数は約250人だそうです。（ちなみにFacebookエンジニアの平均年収は1000万円らしい）（※3、※4）
+
+<img src="http://hackers.nexseed.net/images/curriculum_images/about_web_6.png" alt="Overview" style="width: 80%;">
+
+つまり、Facebookのエンジニア達は、250人で毎日14億5000万人のユーザーに影響を与えていることになります。  
+これは、1人のエンジニアが毎日580万人のユーザーに影響を与えているということです。
+
+1人でできることの限界をはるかに超えた可能性がここにはあり、今プログラミング学習を始めたみなさんにはその可能性が十分にあることをイメージし、今後の学習を進めてください！
+
+<h3>参考サイト</h3>
+<a target="_blank" href="https://newsroom.fb.com/company-info/">参考資料1</a><br>
+<a target="_blank" href="http://heikinnenshu.jp/gaishi/facebook.html">参考資料2</a><br>
+
+
+## 用語集
+|用語|意味・解説|
+|:--:|:--|
+|インターネット|PC同士を繋ぎ情報を渡すための道路|
+|Web|PCから別のPCへと渡す情報を積み運ぶ車|
+|クライアント|ユーザーが使用するPC、スマホ|
+|サーバー|サービスの情報を提供するための別サイドのPC|
+|ブラウザ|クライアント側のPCからWebを使用して情報のやりとりをするためのツール|
+|DNS|ドメインとIPアドレスを紐付けるための専用サーバー|
+|IPアドレス|ネットワーク上にあるPCを識別するための住所|
+|リクエスト|クライアントからサーバーへ送られる依頼 (URL)|
+|レスポンス|サーバーからクライアントへ送られる返答 (データ)|
+|LAMP|Webサーバーを構成する基本構造の名称|
+|Linux|世界的に広く普及しているOS|
+|Apache|WEBサーバー本体。受付嬢。|
+|MySQL|世界的に広く普及しているデータベース|
+|PHP|プログラミング言語|
+|HTML|WEBページのコンテンツ表示のためのマークアップ言語 (Hyper Text Markup Language)|
+|CSS|WEBページのデザインをするためのスタイルシート (Cascading Style Sheets)|
+|OS|PCの管理人 (Mac OS, iOS, Windows, Android)|
+|UI|モノとヒトが情報のやり取りをする画面 (User Interface)|
+|UX|サービス全体がユーザーに与える体験 (User Experience)|
+
+<br>
