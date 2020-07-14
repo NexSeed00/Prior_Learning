@@ -45,3 +45,6 @@ CSSを書き換えると、擬似的に変更することができます。
 デベロッパーツールのうち、スマートフォンのアイコンをクリックすると、スマートフォンやタブレットで見た時のホームページのレイアウトが表示されます。
 
 <img src="http://hackers.nexseed.net/images/curriculum_images/devtool_8.png" alt="Overview" style="width: 80%;">
+
+## 次のページへ
+[HTMLテンプレート](https://github.com/NexSeed00/Prior_Learning/blob/master/08_HTML%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88.md)
