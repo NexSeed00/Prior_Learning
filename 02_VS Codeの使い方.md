@@ -130,5 +130,5 @@ VS Codeには、便利な機能が元々たくさん備わっていますが、�
 |Alt+Z|⌥Z|折り返しの切り替え|
  -->
 
-### 終わり
-[次へ](https://github.com/NexSeed00/Prior_Learning/blob/master/03_Web%E3%81%AE%E4%BB%95%E7%B5%84%E3%81%BF.md)
+## 次のページへ
+[Webの仕組み](https://github.com/NexSeed00/Prior_Learning/blob/master/03_Web%E3%81%AE%E4%BB%95%E7%B5%84%E3%81%BF.md)
