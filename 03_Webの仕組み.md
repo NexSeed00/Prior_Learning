@@ -43,7 +43,7 @@ Webの構成は、大きく分けて「**クライアント**」と「**サー�
 
 ここで簡単にWebアプリケーションについて説明します。
 
-[こちら](https://docs.google.com/presentation/d/e/2PACX-1vSVmW31pDKi0Uffu7Tyzf-DFVWPXCAE7d4eEErkBtpE23fIT-3o2GSX2nnhLRBw35Fjamhwyh-ej09I/embed?start=false&loop=false&delayms=3000)をクリックしてください。 
+[こちら](https://github.com/NexSeed00/Prior_Learning/blob/master/Web%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%A8%E3%81%AF.pdf)をクリックしてください。 
 
 <hr>
 
@@ -71,13 +71,13 @@ HTTP通信とは、 **ブラウザ(Google ChromeやSafariなど)とWebサーバ�
 
 HTTP通信 ~ 前編 ~
 
-[こちら](https://docs.google.com/presentation/d/e/2PACX-1vRisz5wTSqL97dDOJL3GfWOGKpf5qQIuhYMhGfpFbDmEfg7axgN323boL62zrGZB_M_NOfY1qnL1o23/embed?start=false&loop=false&delayms=3000)をクリックしてください。
+[こちら](https://github.com/NexSeed00/Prior_Learning/blob/master/HTTP%E9%80%9A%E4%BF%A1%E3%80%9C%E5%89%8D%E7%B7%A8%E3%80%9C.pdf)をクリックしてください。
 
 <hr>
 
 HTTP通信 ~ 後編 ~
 
-[こちら](https://docs.google.com/presentation/d/e/2PACX-1vR0Ak3bWYcXeZUCESdhswia9BJgKdrkXtck4vliIfg7uOENAGIf2U8jCZFhG3yMZhtrBw4Wy1jdt_MR/embed?start=false&loop=false&delayms=3000)をクリックしてください。
+[こちら](https://github.com/NexSeed00/Prior_Learning/blob/master/HTTP%E9%80%9A%E4%BF%A1%E3%80%9C%E5%BE%8C%E7%B7%A8%E3%80%9C.pdf)をクリックしてください。
 
 ※スライド9のターミナル操作は行わなくて構いません。
 
