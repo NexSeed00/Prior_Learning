@@ -2,9 +2,25 @@
 
 VS Codeとは、テキストエディタと呼ばれる種類のツールで、プログラミングのコードを書いていく上で便利な機能が備わっています。
 ここではVS Codeの以下の基本的な操作について解説します。
+- フォルダの作成
 - ファイルの開き方
 - 拡張機能のインストール
 - ショートカット
+
+## フォルダの作成
+
+### Macの場合
+Finder内で右クリックをし、新規フォルダをクリックします。
+![](./img/html/vs_create_folder_mac.png)
+
+
+### Windowsの場合
+
+エクスプローラのメニューバーから、「新しいフォルダー」をクリックします。
+あるいは、右クリック→新規作成→フォルダーでも作成可能です。
+
+![](./img/html/vs_create_folder_windows.png)
+
 
 ## ファイルの開き方
 ファイルの開き方には主に２種類の方法があります。
@@ -12,24 +28,33 @@ VS Codeとは、テキストエディタと呼ばれる種類のツールで、�
 - メニューバーから開く
 
 ### ドラッグ＆ドロップ
-1. VS CodeとFinderを同時に開き、編集したいファイルをドラッグし、VS Codeのウィンドウ上の、どこでもいいのでドロップします。
+1. VS CodeとFinderを同時に開き、編集したいファイルが含まれるフォルダをドラッグし、VS Codeのウィンドウ上にドロップします。
 
-![Open file in VS Code](./img/html/vs_open_file.png)
+![Open file in VS Code](./img/html/vs_open_file2.png)
 
-2. ファイルが自動的に開かれます。
+2. フォルダが、VS Code内で開かれた状態になります。
 
-![Open file in VS Code](./img/html/vs_opened_file.png)
+![Open file in VS Code](./img/html/vs_opened_folder2.png)
 
+3. フォルダ名の隣にあるアイコンをクリックすると、ファイルを作成することができます。
+
+![create file](./img/html/vs_create_file.png)
 
 ### メニューバーから開く
 
-1. カーソルを画面の一番上に合わせると、以下のようなメニューバーが表示されます
+1. カーソルを画面の一番上に合わせると、以下のようなメニューバーが表示されます。
+
 ![Open file in VS Code](./img/html/vs_menubar.png)
-2. File / Open...をクリックしてください。
+
+2. ファイル(File) / 開く(Open)...をクリックしてください。
 ![Open file in VS Code](./img/html/vs_open_from_menu1.png)
-3.  開きたいファイル、またはフォルダを選択して、Openをクリックします。
-![Open file in VS Code](./img/html/vs_open_from_menu2.png)
-1. ファイルではなくディレクトリ(フォルダ)をドラッグ＆ドロップすると、左側にディレクトリ階層が表示されます。 プログラミングをする場合、一度に複数のファイルを使用することが多いため、 基本的にこちらの使い方をしましょう。
+
+3.  開きたいフォルダを選択して、Openをクリックします。
+
+![Open file in VS Code](./img/html/vs_open_from_menu3.png)
+
+* フォルダではなく、単一のファイルのみを開くと、その後の作業で不便な場面が出てくるので、VS Codeでは、フォルダごと開くするようにしましょう。
+
 <br>左側に階層が表示されない場合は左上のアイコンをクリックしてください。
 ![Open file in VS Code](./img/html/vs_opened_folder.png)
 
@@ -109,7 +134,7 @@ VS Codeには、便利な機能が元々たくさん備わっていますが、�
 
 <!-- 
 ### 基本編集
-|Windows|Mac OS|コマンド
+|macOS|Windows|コマンド
 |:---| :--- | :--- |
 |Ctrl+X|⌘X|切り取り|
 |Ctrl+C|⌘C|コピー|
@@ -129,6 +154,7 @@ VS Codeには、便利な機能が元々たくさん備わっていますが、�
 |Shift+Alt+A|⇧⌥A|ブロック コメントの切り替え|
 |Alt+Z|⌥Z|折り返しの切り替え|
  -->
+
 
 ## 次のページへ
 [Webの仕組み](https://github.com/NexSeed00/Prior_Learning/blob/master/03_Web%E3%81%AE%E4%BB%95%E7%B5%84%E3%81%BF.md)
