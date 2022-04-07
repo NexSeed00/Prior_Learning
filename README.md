@@ -1,4 +1,4 @@
-## 短期集中コース事前学習
+## Seed Tech School 事前学習
 # 目次
 * [事前学習の準備](https://github.com/NexSeed00/Prior_Learning/blob/master/01_%E4%BA%8B%E5%89%8D%E5%AD%A6%E7%BF%92%E3%81%AE%E6%BA%96%E5%82%99.md)
 * [VS Codeの使い方](https://github.com/NexSeed00/Prior_Learning/blob/master/02_VS%20Code%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9.md)
