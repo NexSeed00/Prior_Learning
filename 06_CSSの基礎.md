@@ -58,10 +58,6 @@ sample2.htmlのp要素のコンテンツに、インライン方式で次のよ�
   </body>
 </html>
 ```
-[こちらから動画で作業を確認できます↓](https://youtu.be/P3G1tbAeo_M)
-
-[![こちらから動画で作業を確認できます](https://img.youtube.com/vi/P3G1tbAeo_M/0.jpg)](https://www.youtube.com/watch?v=P3G1tbAeo_M)
-
 
 ### **エンベッド**
 * head内にstyle要素を定義し、その中に記述する方法です。  
