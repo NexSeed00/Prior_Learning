@@ -28,10 +28,6 @@ boltのテンプレート、もしくはその他のHTMLテンプレートを使
 * 趣味
 * その他自己アピール
 
-[こちらから動画で作業を確認できます↓](https://youtu.be/V99s8V32EoE)
-
-[![こちらから動画で作業を確認できます](https://img.youtube.com/vi/V99s8V32EoE/0.jpg)](https://youtu.be/V99s8V32EoE)
-
 ## Bootstrap
 BootstrapはCSSのフレームワークで、HTMLファイルからCSSフレームワークを読み込むだけで、リッチなスタイルが適用されたデザインを作ることができます。
 既に用意されているスタイルを適用するだけなので、HTML/CSSといったWebデザインの知識がない人でも、簡単に見栄えの良いWebページを作成できます。
@@ -70,10 +66,6 @@ index.htmlに次のコードを追加して、ボタンを作ってみましょ�
 
 [公式ページ](http://getbootstrap.com/css/)に、ボタン以外にも色々サンプルが載っていますので参考にしてみてください。
 
-[こちらから動画で作業を確認できます↓](https://youtu.be/rM1oM0-uKW8)
-
-[![こちらから動画で作業を確認できます](https://img.youtube.com/vi/rM1oM0-uKW8/0.jpg)](https://youtu.be/rM1oM0-uKW8)
-
 #### ▼ 練習問題３
 公式ページの[テーブル](http://getbootstrap.com/css/#tables-hover-rows)を参考に、index.htmlに次のコードを追加して、テーブルを作ってみましょう。
 
@@ -98,9 +90,6 @@ index.htmlに次のコードを追加して、ボタンを作ってみましょ�
   </tbody>
 </table>
 ```
-[こちらから動画で作業を確認できます↓](https://youtu.be/OPDmB6mJxfY)
-
-[![こちらから動画で作業を確認できます](https://img.youtube.com/vi/OPDmB6mJxfY/0.jpg)](https://youtu.be/OPDmB6mJxfY)
 
 ### グリッドシステム
 Bootstrapは、 **グリッドシステム** と呼ばれる大きな特徴を持っています。  
